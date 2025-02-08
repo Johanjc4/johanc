@@ -1,0 +1,109 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #051042;
+}
+
+header {
+    background: #0606a4;
+    color: #ffffff;
+    padding: 15px;
+    text-align:right;
+
+}
+.titulo {
+    background-color: #ffffff;
+    color: #1cb5cc;
+    font-size: 40px;
+    border-radius: 10px;
+    border: 3px solid #1cb5cc;
+    width: 250px;
+    height: 50px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: px;
+    text-align: center;
+    
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fdfdfd;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.banner {
+    background: url('torneo.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px 20px;
+    font-size: 20px;
+}
+
+.banner .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.noticias, .resultados, .eventos {
+    background: #bdd7f4;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.noticias h2, .resultados h2, .eventos h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+}
+
+.noticias article {
+    background: #fafafa;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.noticias article h3 {
+    margin: 0;
+}
+
+.noticias article a {
+    margin-top: 5px;
+    background: #ff0000;
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 80px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-size: 20px;
+}
+.lg {
+    border-radius:100px;
+}
